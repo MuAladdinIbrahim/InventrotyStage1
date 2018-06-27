@@ -67,6 +67,7 @@ public class EditorActivity extends AppCompatActivity {
         mProductPriceEditText =  findViewById(R.id.edit_price);
         mProductQuantityEditText = findViewById(R.id.edit_quantity);
         mSupplierSpinner =  findViewById(R.id.spinner_supplier);
+        mSuppliersNumberEditText = findViewById(R.id.edit_supplier_phone);
 
         setupSpinner();
     }
